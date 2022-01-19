@@ -30,7 +30,7 @@ A: When an object is passed as an instance variable of another class. the contai
 
 When would you use composition? Provide a simple example in Java.
 
-A:
+A: When a class uses another object as an instance variable that shouldn't exist wihtout that class. Example a Company class with multiple CompanyLocation Objects, CompanyLocation Objects should not exist without a Company. 
 
 Give a difference between composition and aggregation?
 
